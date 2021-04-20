@@ -40,7 +40,7 @@ Hout, K. J., Foulon, S., 2010. ADI finite difference schemes for option pricing 
 \url{http://www.math.ualberta.ca/ijnam/Volume-7-2010/No-2-10/2010-02-06.pdf}
 
 Pooley, D. M., Vetzal, K. R., Forsyth, P. A., 2002. Convergence remedies for non-smooth payoffs in option pricing.
-\url{http://www.cs.uwaterloo.ca/~paforsyt/report.pdf}
+\url{https://cs.uwaterloo.ca/~paforsyt/report.pdf}
 
 Tavella, D., Randall, C., 2000. Pricing Financial Instruments: The Finite Difference Method. John Wiley & Sons, Inc., New York.
 }
@@ -49,6 +49,6 @@ Michael Eichenberger and Carlo Rosa
 }
 \examples{
 # sample mesh spacing
-plot(nodeSpacer(100, 0, 500, 26, 5, 1), rep(0, times=26), main='Non-Uniform Mesh Spacing', 
+plot(nodeSpacer(100, 0, 500, 26, 5, 1), rep(0, times=26), main='Non-Uniform Mesh Spacing',
   xlab='Underlying Price (Strike = 100)', ylab='', yaxt='n', type='p', cex=0.5, pch=16)
 }

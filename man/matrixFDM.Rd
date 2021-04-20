@@ -40,7 +40,6 @@ Michael Eichenberger and Carlo Rosa
 }
 \examples{
 # finite difference matrix for uniformly-spaced two-asset option
-require("Matrix")
 S1 <- list(seq(0, 5, by=1), seq(0, 5, by=1))
 rf <- 0.1
 q <- c(0.05, 0.04)

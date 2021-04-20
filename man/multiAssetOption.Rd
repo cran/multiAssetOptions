@@ -125,7 +125,7 @@ X <- list()
 X$opt$nAsset <- 2
 X$opt$payType <- 0
 X$opt$exerType <- 0
-X$opt$pcFlag <- c(0, 0)
+X$opt$pcFlag <- c(1, 0)
 X$opt$ttm <- 0.5
 X$opt$strike <- c(110, 90)
 X$opt$rf <- 0.10
@@ -134,7 +134,7 @@ X$opt$vol <- c(0.20, 0.25)
 X$opt$rho <- matrix(c(1, -0.5, -0.5, 1), X$opt$nAsset, X$opt$nAsset)
 
 # finite difference inputs
-X$fd$m <- c(10, 10)
+X$fd$m <- c(20, 20)
 X$fd$leftBound <- c(0, 0)
 X$fd$kMult <- c(0, 0)
 X$fd$density <- c(5, 5)
